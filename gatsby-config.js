@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.deuspatriaefamilia.com.br`,
+  },
   plugins: [
     {
       resolve: "gatsby-plugin-google-analytics",
