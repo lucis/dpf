@@ -1,20 +1,22 @@
-import { action } from "@storybook/addon-actions"
+import { action } from '@storybook/addon-actions'
 
-import '../src/styles/global.css';
+import '../src/styles/global.css'
+import '@fontsource/open-sans/500-normal.css'
+import '@fontsource/open-sans/900-normal.css'
 
 global.___loader = {
   enqueue: () => {},
   hovering: () => {},
 }
 
-global.__BASE_PATH__ = "/"
+global.__BASE_PATH__ = '/'
 
-window.___navigate = pathname => {
-  action("NavigateTo:")(pathname)
+window.___navigate = (pathname) => {
+  action('NavigateTo:')(pathname)
 }
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,
