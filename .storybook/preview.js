@@ -1,8 +1,8 @@
 import { action } from '@storybook/addon-actions'
 
+import '@fontsource/lato/latin-400.css'
+import '@fontsource/lato/latin-400.css'
 import '../src/styles/global.css'
-import '@fontsource/open-sans/500-normal.css'
-import '@fontsource/open-sans/900-normal.css'
 
 global.___loader = {
   enqueue: () => {},
@@ -11,7 +11,7 @@ global.___loader = {
 
 global.__BASE_PATH__ = '/'
 
-window.___navigate = pathname => {
+window.___navigate = (pathname) => {
   action('NavigateTo:')(pathname)
 }
 
