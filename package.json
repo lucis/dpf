@@ -61,5 +61,5 @@
     "*.json": [
       "prettier --write"
     ]
-  },
+  }
 }
