@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       colors: {
         amarelo: '#EDB51E',
-        vermelho: '#91191C'
-      }
+        vermelho: '#91191C',
+      },
     },
   },
   variants: {

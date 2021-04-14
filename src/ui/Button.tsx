@@ -1,16 +1,12 @@
-import * as React from "react";
-import type { FC } from "react";
+import * as React from 'react'
+import type { FC } from 'react'
 
 type Props = {
-  type: "primary" | "secondary";
-};
+  type: 'primary' | 'secondary'
+}
 
 const Button: FC<Props> = ({ type, children }) => {
-  return (
-    <button className="bg-amarelo p-2 rounded">
-      {children}
-    </button>
-  );
-};
+  return <button className="bg-amarelo p-2 rounded">{children}</button>
+}
 
-export default Button;
+export default Button

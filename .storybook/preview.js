@@ -11,7 +11,7 @@ global.___loader = {
 
 global.__BASE_PATH__ = '/'
 
-window.___navigate = (pathname) => {
+window.___navigate = pathname => {
   action('NavigateTo:')(pathname)
 }
 
