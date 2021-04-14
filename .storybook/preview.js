@@ -15,7 +15,7 @@ window.___navigate = (pathname) => {
   action('NavigateTo:')(pathname)
 }
 
-export  const parameters = {
+export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
